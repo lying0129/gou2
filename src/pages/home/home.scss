@@ -1,0 +1,212 @@
+page-home { 
+
+    .tag .rare{
+        background-color: rgba(247,103,7,.8);
+    }
+    
+    .tag .generation{
+        background: rgba(211,147,26,.8);
+    }
+    
+    .tag .cooldown{
+        background: #FD6484;
+    }
+    .tag span{
+        display: inline-block;
+        height: 1.7rem;
+        padding: 0 .4rem;
+        color: #fff;
+        -webkit-border-radius: .0725rem;
+        border-radius: .3rem;
+        font-size: 1.3rem;
+        margin-right: 2px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        // width:3rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    .infoLine{
+        background:transparent !important;
+        color: #666;
+        font-size: 1.6rem;
+        font-weight: 400;
+        float: right;
+    }
+    .dogName{
+        padding-top: .8rem;
+        height: 2.9rem;
+        font-weight: 400;
+    }
+    .dogPrice{
+        color: #F76707;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    .dogInfo{
+        margin: 0 .4106rem;
+        padding: .3623rem 0;
+        line-height: 1.5em;
+        border-bottom: 1px solid #F1F1F1;
+    }
+    .userHead{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 3rem;
+    }
+    .userbg{
+        background-size: contain;
+        border-radius: 1.5459rem;
+        width: 5em;
+        height: 7rem;
+        position: absolute;
+        right: 0;
+        top: -1px;
+    }
+    .userInfo{
+        margin-top: .3865rem;
+    }
+    .userDetail{
+        margin: .3623rem .4106rem;
+        margin-bottom: .7246rem;
+        position: relative;
+    }
+
+    .f16{
+        font-size: 1.7rem;
+    }
+    .f14{
+        font-size: 1.5rem;
+    }
+    .f18{
+        font-size: 1.9rem;
+    }
+    .f18 h2{
+        font-weight: 400;
+        line-height: 1.9em;
+    }
+    .c2{
+        color: #999;
+    }
+    .attr{
+        margin: 0 .4106rem;
+        margin-top: 3rem;
+    }
+    .list{
+        color: #555;
+        font-size: 1.4rem;
+        list-style: none;
+        padding: 0;
+        padding-top: 1rem;
+    }
+    .list li{
+        display: inline-block;
+        line-height: 2.1em;
+        width: 49%;
+        color: #555;
+    }
+    .niubi{
+        margin-left: .1208rem;
+        color: #F76707;
+    }
+    .dog{
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: .4348rem;
+        will-change: auto;
+        float: left;
+    }
+    .dog dt img{
+        display: inline-block;
+        vertical-align: middle;
+        margin: .2415rem auto 0;
+        width: 10rem;
+        height: 10rem;
+    }
+    .bottomBtn{
+        // position: fixed;//为啥不能固定div
+        height: 3rem;
+        width: 100%;
+        background-color: #fff;
+        bottom: 1rem;
+        position: absolute;
+    }
+    .button{
+        border-radius: .7246rem;
+        color: #fff;
+        background: #FF6B6B;
+        height: 3rem;
+        // line-height: 1.1594rem;
+        font-size: 2.3rem; 
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+    }
+    .dog dl dd{
+        margin: 0;
+    }
+    .dog dl dt{
+        background-color:rgb(251, 233, 231);
+        width: 90%;
+    }
+    .parent{
+        margin: 0 .3623rem;
+        margin-top: .7246rem;
+    }
+    .pair{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 1;
+        padding: .3865rem .3623rem 0 3rem;
+        background-color: #fff;
+        background: url(https://pet-chain.baidu.com/static/pkg/image/page/ChooseMyDog/img/chooseBreeding_1f0a908.png) center center no-repeat;
+        background-size: 100% 100%;
+        height: 280px;
+    }
+    .pull-list{
+        padding: 27.7295rem .3623rem 0;
+    }
+    .pull-list h2{
+        position: fixed;
+        z-index: 2;
+        top: 23.1836rem;
+        left: 0;
+        padding-left: 1.3623rem;
+        padding-bottom: 0;
+        width: 100%;
+        font-family: PingFangSC-Medium;
+        color: #000;
+        background: #fff;
+        letter-spacing: 0;
+        line-height: 1.4493rem;
+    } 
+    .my-dog-list.dog-wrapper{
+        background: #fff; 
+        display: flex;
+        width: 100%; 
+        flex-flow: row wrap; 
+        justify-content: space-between;
+    } 
+    .dogdt{
+        float: left;
+        width: 20% !important;
+    }
+    .dogdetail{ 
+        margin-bottom: .4348rem;
+        will-change: auto;
+        float: left;
+        width: 100%;
+        margin-left: 2rem;
+        border-bottom: 1px solid #F1F1F1;
+    }
+    .dog-preview{
+        width: 90%; 
+        background-color: rgb(187, 223, 251);
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+}

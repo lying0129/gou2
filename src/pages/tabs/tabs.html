@@ -1,0 +1,5 @@
+<ion-tabs #mainTabs (ionChange)="changeTabs()" color="danger" tabsHighlight="true">
+    <ion-tab [root]="tab1Root" [rootParams]="homeParams" tabTitle="Home" tabIcon="home"></ion-tab>
+    <ion-tab [root]="tab2Root" (ionSelect)="selectFriend()" tabTitle="Friends" tabIcon="aperture" tabBadge="3" tabBadgeStyle="danger"></ion-tab>
+    <ion-tab [root]="tab3Root" enabled="false"  swipeBackEnabled="true" tabTitle="Contact" tabIcon="contacts"></ion-tab>
+</ion-tabs>
